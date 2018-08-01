@@ -8,4 +8,4 @@ file. Next, you assign all elements that you want to be a live clock the
 attribute "data-live-clock". It should now work.
 
 **This project was initiated and made by PurpleStripedUnicorn. Please read the
-[LICENSE](../master/LICENCE) file before using this code**
+[LICENSE](../master/LICENSE) file before using this code**
