@@ -1,0 +1,61 @@
+<!--
+
+    <<< example.html >>>
+
+    THIS IS JUST AN EXAMPLE FILE AND IS NOT NEEDED
+    FOR LIVE-CLOCK.JS TO FUNCTION.
+
+    SEE THE LICENSE FILE FOR MORE INFORMATION ON
+    THE LICENSE OF THIS FILE AND OTHER FILES IN THIS
+    REPOSITORY.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- top title -->
+    <title>Javascript live clock example</title>
+
+    <!-- get the script that is in the same folder as this file
+         you do not need this file (example.html) for it to function -->
+    <script src="live-clock.js" type="text/javascript"></script>
+
+    <!-- styling of the object for demonstation
+         this is not needed for working with live-clock.js -->
+    <style>
+
+    /* style the element with class clock
+       put it in the middle of the window
+       also make it a little bit better-looking */
+    .clock {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-family: sans-serif;
+        font-size: 5em;
+        color: #999;
+    }
+
+    /* also make the background of the document a little bit darker for
+       a better style */
+    body {
+        background-color: #f7f7f7;
+    }
+
+    </style>
+
+</head>
+<body>
+
+    <div data-live-clock class="clock">
+        <!--
+            time will appear here automatically
+            you can style this however you want,
+            the time will appear in the format h:mm:ss
+        -->
+    </div>
+
+</body>
+</html>
